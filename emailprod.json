@@ -1,0 +1,87 @@
+{
+  "store": {
+    "name": "SuperTech Store",
+    "location": "New York, USA",
+    "contact": {
+      "email": "support@supertechstore.com",
+      "phone": "+1-800-555-1234"
+    },
+    "products": [
+      {
+        "id": 101,
+        "name": "Laptop",
+        "brand": "TechPro",
+        "category": "Electronics",
+        "price": 999.99,
+        "available": true,
+        "specifications": {
+          "processor": "Intel Core i7",
+          "ram": "16GB",
+          "storage": "512GB SSD",
+          "screen": "15.6 inch Full HD"
+        },
+        "reviews": [
+          {
+            "customer": "John Doe",
+            "rating": 5,
+            "comment": "Great laptop for work and gaming!"
+          },
+          {
+            "customer": "Jane Smith",
+            "rating": 4,
+            "comment": "Good value for money, but a bit heavy."
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Wireless Mouse",
+        "brand": "Logitech",
+        "category": "Accessories",
+        "price": 29.99,
+        "available": true,
+        "specifications": {
+          "type": "Wireless",
+          "color": "Black",
+          "battery": "AA",
+          "range": "10 meters"
+        },
+        "reviews": [
+          {
+            "customer": "Alice Cooper",
+            "rating": 5,
+            "comment": "Perfect for work, smooth tracking."
+          },
+          {
+            "customer": "Bob Martin",
+            "rating": 3,
+            "comment": "Decent mouse, but the battery life could be better."
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Smartphone",
+        "brand": "TechPhone",
+        "category": "Electronics",
+        "price": 499.99,
+        "available": false,
+        "specifications": {
+          "processor": "Snapdragon 888",
+          "ram": "8GB",
+          "storage": "128GB",
+          "camera": "64MP",
+          "battery": "4000mAh"
+        },
+        "reviews": [
+          {
+            "customer": "Michael Lee",
+            "rating": 4,
+            "comment": "Great performance, but I wish the battery lasted longer."
+          }
+        ]
+      }
+    ]
+  }
+}
+
